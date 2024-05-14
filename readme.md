@@ -33,3 +33,5 @@ ES 1
 3. verificare se nell'array di frutta c'è il cocomero:
    - se c'è stampiamo: "Trovato! Devo solo preparare il cocktail."
    - se non lo trovo: "Oh no, devo uscire a comprare il cocomero!"
+
+   <!-- prima ho creato un prompt che chiede il nome del frutto,poi ho usato find per cercare dentro il frigorifero e poi avendo un riscontro se ce o non ce -->
