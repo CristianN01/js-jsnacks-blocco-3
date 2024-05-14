@@ -35,3 +35,7 @@ ES 1
    - se non lo trovo: "Oh no, devo uscire a comprare il cocomero!"
 
    <!-- prima ho creato un prompt che chiede il nome del frutto,poi ho usato find per cercare dentro il frigorifero e poi avendo un riscontro se ce o non ce -->
+
+   ES 2
+   prima chiediamo all'utente quanti elementi dovra contenere la nostra array
+   creiamo un array vuota, poi creiamo un prompt dove chiediamo il numero di elementi che riempiranno la nostra array
