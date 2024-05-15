@@ -22,8 +22,9 @@ const secondArray = [5, 6, 3, 1, 8, 4, 6, 9, 4, 5]
 console.log(firstArray, secondArray)
 
 while( firstArray.length < secondArray.length){
-    const numbers = Math.floor(Math.random()* 100) +1
+    let numbers = Math.floor(Math.random()* 100) +1
     firstArray.push(numbers)
 
-    console.log(firstArray)
 }
+
+console.log(firstArray)
