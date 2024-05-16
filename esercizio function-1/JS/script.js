@@ -47,15 +47,33 @@
 
 // > Scrivi una funzione che dato un numero inverta le sue cifre: 1234 -> 4321
 
-// function getReversedNumber (number){
-//     let string = number.toString();
-//     let reverseString = '';
+//! function getReversedNumber (number){
+// !    let string = number.toString();
+//!     let reverseString = '';
 
-//     for (let index = string.length; index >= 0; index--) {
-//         reverseString += string[index];
-//     }
-//      return reverseString;
-// }
+//!     for (let index = string.length; index >= 0; index--) {
+//!         reverseString += string[index];
+// !    }
+//!      return reverseString;
+//! }
+
+
+// ? CORREZIONE DELL'ESERCIZIO
+
+
+// * Scrivi una funzione che dato un numero inverta le sue cifre: 1234 -> 4321
+
+function getReversedNumber(number){
+    let string = number.toString();
+    let reversedString = '';
+
+    for (let index = string.length - 1; index >= 0; index--) {
+        reversedString += string[index];
+        
+    }
+    return reversedString;
+} 
+ //? ESERCIZIO FUNZIONANTE
 
  // ? PER CREARE UN NUMERO RANDOMICO CON UNA FUNZIONE
 
